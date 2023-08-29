@@ -21,7 +21,7 @@
 *,
 *:: after,
 *:: before {
-	box-sizing: border-box;
+	box-sizing: inherit;
 	
 }
 
@@ -224,7 +224,6 @@ header {
 	display: inline-block;
 	width: 380px;
 	border-bottom: 1px solid #e7e9fc;
-	margin: o auto;
 }
 .header-logo {
 	font-family: Raleway, sans-serif;
