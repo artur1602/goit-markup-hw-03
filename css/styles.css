@@ -424,8 +424,9 @@ header-nav-link-portfolio {
   top: 792px;
   left: 156px;
 	padding: 120px 0;
+	display: flex;
 }
-.strategy, punctuality, diligence, technologies{
+.descriptions-items {
 	width: 264px;
 	height: 104px;
 	top: 792px;
