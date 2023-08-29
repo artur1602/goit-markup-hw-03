@@ -556,6 +556,11 @@ header-nav-link-portfolio {
 	margin-bottom: 72px;
 }
 .team-list {
+	width: calc((100% - 72px) / 4);
+}
+
+.team-container {
+	padding: 32px 0;
 }
 .name-item {
 	background-color: var(--background-color-fff);
@@ -575,7 +580,6 @@ header-nav-link-portfolio {
   box-shadow: 0px 1px 1px 0px #2E2F4229;
   box-shadow: 0px 1px 6px 0px #2E2F4214;
 	border-radius: 0px 0px 4px 4px;
-	width: calc((100% - 72px) / 4);
 }
 .name-container {
   padding: 32px 0;
