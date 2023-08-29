@@ -175,6 +175,7 @@ ul, ol {
 	display: flex;
 	width: 1158px;
 	padding: 0 15px 0 15px;
+	gap: 24px;
 }
 
 
@@ -471,7 +472,8 @@ header-nav-link-portfolio {
 	height: 412px;
 	top: 1016px;
 	left: 156px;
-	 padding: 120px 0;
+	padding: 120px 0;
+	gap: 24px;
 }
 .what-h {
   font-size: 36px;
@@ -486,6 +488,7 @@ header-nav-link-portfolio {
 	height: 40px;
 	top: 1016px;
 	left: 559px;
+	margin-bottom: 72px;
 }
 .monitor, message, phone {
 	color: #E7E9FC;
