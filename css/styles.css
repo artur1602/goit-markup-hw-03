@@ -507,7 +507,7 @@ header-nav-link-portfolio {
 	margin-bottom: 72px;
 }
 
-.monitor, message, phone {
+.what-item {
 	color: #E7E9FC;
 	background-color: var(--background-color-fff);
 	width: 360px;
@@ -517,18 +517,8 @@ header-nav-link-portfolio {
 	border: 1px solid #E7E9FC;
 	display: flex;
 	gap: 24px;
-	
-}
-.monitor {
 	width: calc((100% - 48px) / 3);
 }
-.message {
-	width: calc((100% - 48px) / 3);
-}
-.phone {
-	width: calc((100% - 48px) / 3);
-}
-
 
 .team {
 	background-color: var(--background-color-4fd);
