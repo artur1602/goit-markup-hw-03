@@ -134,7 +134,7 @@
 
 /* body */
 body {
-  font-family: var(--fm);
+  font-family: var(-f-fm);
 	font-style: normal;
 	font-weight: var(--fw);
 	font-size: var(--fs);
