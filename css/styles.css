@@ -240,6 +240,11 @@ header {
 	display: inline-block;
 	width: 380px;
 	border-bottom: 1px solid #e7e9fc;
+	margin: 0 auto;
+}
+
+.header-container {
+		margin: 0 auto;
 }
 .header-logo {
 	font-family: Raleway, sans-serif;
@@ -266,6 +271,8 @@ header {
 	color: var(--color-f42);
 	width: 71px;
   height: 21px;
+	margin: 0 auto;
+
 }
 .header-nav {
 	font-weight: 500;
@@ -281,6 +288,11 @@ header {
 	column-gap: 10px;
 	display: flex;
 	align-items: center;
+	margin: 0 auto;
+}
+
+.link-container {
+		margin: 0 auto;
 }
 .header-nav-list {
 	width: 261px;
@@ -290,11 +302,15 @@ header {
 	gap: 40px;
 	display: flex;
 	gap: 40px;
+	margin: 0 auto;
+
 }
 .header-nav-item {
 	display: flex;
 	gap: 40px;
 	padding: 24px 0;
+	margin: 0 auto;
+
 }
 .header-nav-link {
 	font-weight: 500;
@@ -311,18 +327,27 @@ header {
 	display: flex;
 	gap: 40px;
 	padding: 24px 0;
+	margin: 0 auto;
+
 }
 .header-nav-link-studio, header-nav-link-portfolio, header-nav-link-contacts {
 	height: 24px;
+	margin: 0 auto;
 }
 .header-nav-link-studio {
 	width: 48px;
+	margin: 0 auto;
+
 }
 header-nav-link-portfolio {
 	width: 66px;
+	margin: 0 auto;
+
 }
 .header-nav-link-contacts {
-	width: 67px;	
+	width: 67px;
+	margin: 0 auto;
+	
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
@@ -335,6 +360,7 @@ header-nav-link-portfolio {
 	color: var(--color-ico);
 	display: inline-block;
   height: 24px;
+	margin: 0 auto;
   top: 24px;
 }
 .address-link-mailto {
