@@ -29,7 +29,7 @@
 
 /* container display: flex; */
 
-.container{
+.container {
 	width: 1440px;
 	margin-left: auto;
 	margin-right: auto;
@@ -399,9 +399,6 @@ header-nav-link-portfolio {
   height: 600px;
   top: 72px;
 	padding: 188px 0;
-}
-.effective-container {
-
 }
 .effective {
 	color: var(--color-fff);
