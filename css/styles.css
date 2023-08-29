@@ -44,7 +44,7 @@
 
 /* button*/
 .order-service {
-	background-color: #4D5AE5;
+	background-color: var(--color-ae5);
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 	font-size: var(--fs);
@@ -53,7 +53,11 @@
 	color: var(--color-fff);
 	cursor: pointer;
 	width: 105px;
-  height: 24px;
+  height: 56px;
+	display: block;
+	min-width: 169px;
+	border: none;
+	border-radius: 4px;
 }
 .order-service:hover,
 .order-service:focus {
@@ -351,6 +355,7 @@ header-nav-link-portfolio {
 	width: 1440px;
 	height: 312px;
 	top: 2280px;
+	padding: 100px 0;
 }
 .logo-f {
   text-align: left;
@@ -362,6 +367,7 @@ header-nav-link-portfolio {
 	text-transform: uppercase;
 	color: var(--color-ae5);
 	text-decoration: none;
+	margin-bottom: 16px;
 }
 .logo-icon {
 	color: #f4f4fd;
@@ -377,6 +383,7 @@ header-nav-link-portfolio {
   height: 72px;
   top: 2420px;
   left: 156px;
+	max-width: 264px; 
 }
 
 
@@ -391,6 +398,10 @@ header-nav-link-portfolio {
 	width: 1440px;
   height: 600px;
   top: 72px;
+	padding: 188px 0;
+}
+.effective-container {
+
 }
 .effective {
 	color: var(--color-fff);
@@ -403,9 +414,8 @@ header-nav-link-portfolio {
 	height: 120px;
 	top: 260px;
 	left: 472px;
+	max-width: 496px;
 }
-
-
 .descriptions {
 	background-color: var(--background-color-bbf);
 	font-weight: 500;
@@ -414,12 +424,15 @@ header-nav-link-portfolio {
   height: 104px;
   top: 792px;
   left: 156px;
+	padding: 120px 0;
 }
 .strategy, punctuality, diligence, technologies{
 	width: 264px;
 	height: 104px;
 	top: 792px;
-	gap: 8px;
+	gap: 24px;
+	display: flex;
+	width: calc((100% - 72px) / 4);
 }
 .strategy {
 	left: 156px;
@@ -442,6 +455,7 @@ header-nav-link-portfolio {
 	display: inline-block;
 	width: 264px;
   height: 24px;
+	margin-bottom: 8px;
 }
 .descriptions-p {
 	box-sizing: border-box;
@@ -459,6 +473,7 @@ header-nav-link-portfolio {
 	height: 412px;
 	top: 1016px;
 	left: 156px;
+	 padding: 120px 0;
 }
 .what-h {
   font-size: 36px;
@@ -482,6 +497,8 @@ header-nav-link-portfolio {
 	top: 1128px;
 	width: 360px;
 	border: 1px solid #E7E9FC;
+	display: flex;
+	gap: 24px;
 }
 .monitor {
 	left: 156px;
@@ -499,6 +516,7 @@ header-nav-link-portfolio {
 	width: 1440px;
 	height: 732px;
 	top: 1548px;
+		display: flex;
 }
 .team-h {	
   font-size: 36px;
@@ -514,6 +532,7 @@ header-nav-link-portfolio {
 	height: 40px;
 	top: 1668px;
 	left: 639px;
+	margin-bottom: 72px;
 }
 .name-list-product, name-list-frontend, name-list-marketing, name-list-designer {
 	background-color: var(--background-color-fff);
@@ -522,16 +541,19 @@ header-nav-link-portfolio {
 	border: 3px solid red;
 	width: 400px;
 	height: 500px;
-	display: inline-block;
+	display: flex;
 	width: 64px;
 	height: 380px;
 	top: 1780px;
 	padding: 0px 0px 32px 0px;
 	border-radius: 0px 0px 4px 4px;
-	gap: 32px;
+	gap: 24px;
 	box-shadow: 0px 2px 1px 0px #2E2F4214;
   box-shadow: 0px 1px 1px 0px #2E2F4229;
   box-shadow: 0px 1px 6px 0px #2E2F4214;
+	width: calc((100% - 72px) / 4);
+	border-radius: 0px 0px 4px 4px;
+
 }
 .name-list-product {
 	left: 156px;
