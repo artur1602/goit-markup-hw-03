@@ -557,7 +557,7 @@ header-nav-link-portfolio {
 }
 .team-list {
 }
-.name-list-product, name-list-frontend, name-list-marketing, name-list-designer {
+.name-item {
 	background-color: var(--background-color-fff);
 	box-sizing: border-box;
 	padding: 20px;
@@ -605,7 +605,7 @@ header-nav-link-portfolio {
 	height: 24px;
 	margin-bottom: 8px;
 }
-.proffesion-product, proffesion-frontend, proffesion-marketing, proffesion-designer {
+.proffesion-p {
   font-size: var(--fs);
   font-weight: var(--fw);
   line-height: 24px;
