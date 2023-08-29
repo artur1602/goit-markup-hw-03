@@ -14,7 +14,6 @@
 	--fs: 16px;
 	--lh: 1.5;
 	--fw8: 800;
-	  box-sizing: border-box;
 }
 
 
@@ -113,37 +112,23 @@
 	gap: 10px;
 	box-shadow: 0px 4px 4px 0px #00000026;
 }
-.btn-all, btn-web, btn-app, btn-design, btn-marketing:hover,
-.btn-all, btn-web, btn-app, btn-design, btn-marketing:focus {
+.btn-list:hover,
+.btn-list:focus {
 	color: var(--color-fff);
 	background-color: var(--background-color-bbf);
+	border: 1px solid transparent;
 }
-.btn-all, btn-web, btn-app, btn-design, btn-marketing {
+.btn-list {
 	height: 48px;
 	padding: 12px 24px 12px 24px;
 	border-radius: 4px;
 	border: 1px solid #E7E9FC	;
 }
-.btn-all {
+.btn-list {
 	width: 69px;
   box-shadow: 0px 2px 2px 0px #0000001F;
   box-shadow: 0px 2px 1px 0px #00000014;
   box-shadow: 0px 3px 1px 0px #0000001A;
-}
-.btn-web {
-	width: 116px;
-}
-.btn-app {
-	width: 78px;
-}
-.btn-design {
-	width: 101px;
-}
-.btn-marketing {
-	width: 126px;
-}
-
-
 
 
 
@@ -649,6 +634,12 @@ header {
 	top: 168px;
 	left: 427px;
 	gap: 24px;
+	padding-top: 96px;
+	padding-bottom: 120px;
+}
+.s-list {
+	 justify-content: center; 
+	 margin-bottom: 72px
 }
 .image-link {
 	text-decoration: none;
