@@ -373,6 +373,7 @@ header-nav-link-portfolio {
 	height: 312px;
 	top: 2280px;
 	padding: 100px 0;
+	display: inline-block;
 }
 .logo-f {
   text-align: left;
