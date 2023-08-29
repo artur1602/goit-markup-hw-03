@@ -327,26 +327,6 @@ header {
 	gap: 40px;
 	padding: 24px 0;
 	margin: 0 auto;
-
-}
-.header-nav-link-studio, header-nav-link-portfolio, header-nav-link-contacts {
-	height: 24px;
-	margin: 0 auto;
-}
-.header-nav-link-studio {
-	width: 48px;
-	margin: 0 auto;
-
-}
-header-nav-link-portfolio {
-	width: 66px;
-	margin: 0 auto;
-
-}
-.header-nav-link-contacts {
-	width: 67px;
-	margin: 0 auto;
-	
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
