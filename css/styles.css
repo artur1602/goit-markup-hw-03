@@ -520,15 +520,12 @@ header-nav-link-portfolio {
 	
 }
 .monitor {
-	left: 156px;
 	width: calc((100% - 48px) / 3);
 }
 .message {
-	left: 540px;
 	width: calc((100% - 48px) / 3);
 }
 .phone {
-	left: 924px;
 	width: calc((100% - 48px) / 3);
 }
 
