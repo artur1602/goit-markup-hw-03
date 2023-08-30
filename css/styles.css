@@ -322,6 +322,7 @@ address-link-tel {
   height: 312px;
   top: 2280px;
   padding: 100px 0;
+  display: inline-block;
 }
 .logo-f {
   text-align: left;
@@ -342,6 +343,7 @@ address-link-tel {
   height: 24px;
   top: 2380px;
   left: 156px;
+  display: inline-block;
 }
 .logo-f-p {
   color: #f4f4fd;
@@ -351,6 +353,7 @@ address-link-tel {
   top: 2420px;
   left: 156px;
   max-width: 264px;
+  display: inline-block;
 }
 
 /* index html */
