@@ -87,9 +87,12 @@
 	left: 636px;
 	padding: 16px 32px 16px 32px;
 	border-radius: 4px;
-	gap: 10px;
+	gap: 24px;
 	box-shadow: 0px 4px 4px 0px #00000026;
 	border: none;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 72px;
 }
 
 
@@ -102,15 +105,16 @@
 	background-color: var(--background-color-4fd);
 	cursor: pointer;
 	color: var(--color-ae5);
-	display: inline-block;
+	display: flex;
 	width: 69px;
 	height: 56px;
 	top: 428px;
 	left: 636px;
-	padding: 16px 32px 16px 32px;
+	padding: 16px 24px;
 	border-radius: 4px;
 	gap: 10px;
 	box-shadow: 0px 4px 4px 0px #00000026;
+	border: 1px solid #e7e9fc;
 }
 .btn-list:hover,
 .btn-list:focus {
