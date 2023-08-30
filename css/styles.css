@@ -102,19 +102,19 @@
 	font-size: var(--fs);
 	line-height: var(--lh);
 	letter-spacing: 0.04em;
-	background-color: var(--background-color-4fd);
 	cursor: pointer;
 	color: var(--color-ae5);
 	display: flex;
 	width: 69px;
 	height: 56px;
-	top: 428px;
-	left: 636px;
 	padding: 16px 24px;
 	border-radius: 4px;
 	gap: 10px;
 	box-shadow: 0px 4px 4px 0px #00000026;
 	border: 1px solid #e7e9fc;
+	box-shadow: 0px 2px 2px 0px #0000001F;
+  box-shadow: 0px 2px 1px 0px #00000014;
+  box-shadow: 0px 3px 1px 0px #0000001A;
 }
 .btn-list:hover,
 .btn-list:focus {
@@ -122,17 +122,7 @@
 	background-color: var(--background-color-bbf);
 	border: 1px solid transparent;
 }
-.btn-list {
-	height: 48px;
-	padding: 12px 24px 12px 24px;
-	border-radius: 4px;
-	border: 1px solid #E7E9FC	;
-}
-.btn-list {
-	width: 69px;
-  box-shadow: 0px 2px 2px 0px #0000001F;
-  box-shadow: 0px 2px 1px 0px #00000014;
-  box-shadow: 0px 3px 1px 0px #0000001A;
+
 
 
 
