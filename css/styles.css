@@ -361,6 +361,7 @@ address-link-tel {
   height: 600px;
   top: 72px;
   padding: 188px 0;
+  text-align: center;
 }
 .effective {
   color: var(--color-fff);
