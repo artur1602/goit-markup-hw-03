@@ -582,6 +582,7 @@ address-link-tel {
   left: 427px;
   padding-top: 96px;
   padding-bottom: 120px;
+  gap: 24px;
 }
 .s-list {
   justify-content: center;
