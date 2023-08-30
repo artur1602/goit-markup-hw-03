@@ -93,7 +93,7 @@
 }
 
 
-.btn-all, btn-web, btn-app, btn-design, btn-marketing {
+.btn-list {
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 	font-size: var(--fs);
@@ -625,7 +625,6 @@ header {
 .s-link {
 	width: 586px;
 	height: 48px;
-	top: 168px;
 	left: 427px;
 	gap: 24px;
 	padding-top: 96px;
