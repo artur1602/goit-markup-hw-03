@@ -41,10 +41,14 @@
 
 .container {
   width: 1158px;
-  margin: 0;
-  padding-left: 15px;
-  padding-right: 15px;
-  display: flex;
+  margin: 0 auto;
+  padding: 0 15;
+}
+
+/* sections */
+
+.section {
+  padding: 60px;
 }
 
 /* button*/
@@ -74,8 +78,8 @@
   cursor: pointer;
   width: 69px;
   height: 56px;
-  top: 428px;
-  left: 636px;
+  margin-top: 428px;
+  marging-left: 636px;
   padding: 16px 32px 16px 32px;
   border-radius: 4px;
   gap: 24px;
@@ -115,12 +119,10 @@
 
 /* body */
 body {
-  font-family: var(-f-fm);
-  font-style: normal;
+  font-family: var(--fm);
   font-weight: var(--fw);
   font-size: var(--fs);
   line-height: 24px;
-  letter-spacing: 2%;
   background-color: var(--background-color-fff);
   color: var(--color);
   padding: 0;
@@ -153,7 +155,6 @@ p {
 ul,
 ol {
   list-style: none;
-  padding: 0;
   margin: 0 auto;
   display: flex;
   width: 1158px;
@@ -203,9 +204,7 @@ header {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
   color: var(--color-ae5);
-  width: 44px;
   height: 21px;
   top: 24px;
   left: 156px;
@@ -235,7 +234,6 @@ header {
   height: 72px;
   border: 1px;
   column-gap: 10px;
-  display: flex;
   align-items: center;
   margin: 0 auto;
 }
@@ -250,7 +248,6 @@ header {
   left: 347px;
   gap: 40px;
   display: flex;
-  gap: 40px;
   margin: 0 auto;
 }
 .header-nav-item {
@@ -264,13 +261,9 @@ header {
   letter-spacing: 0.02em;
   font-size: var(--fs);
   line-height: var(--lh);
-  text-decoration: none;
   color: var(--color-f42);
-  display: block;
-  width: 40px;
   border-radius: 10px;
   border: 3px solid var(--color-f42);
-  display: flex;
   gap: 40px;
   padding: 24px 0;
   margin: 0 auto;
@@ -291,7 +284,6 @@ address-link-tel {
   top: 24px;
 }
 .address-link-mailto {
-  width: 153px;
   left: 940px;
 }
 .address-link-tel {
@@ -374,21 +366,18 @@ address-link-tel {
   letter-spacing: 0.02em;
   text-align: center;
   width: 496px;
-  height: 120px;
-  top: 260px;
-  left: 472px;
   max-width: 496px;
 }
 .descriptions {
-  background-color: var(--background-color-bbf);
   font-weight: 500;
-  display: inline-block;
   width: 1128px;
   height: 104px;
   top: 792px;
   left: 156px;
-  padding: 120px 0;
+  padding: 12px 0;
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 .descriptions-items {
   width: 264px;
@@ -442,7 +431,6 @@ address-link-tel {
 .what-h {
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
   letter-spacing: 0.02em;
   text-align: center;
   line-height: 1.11;
@@ -450,8 +438,6 @@ address-link-tel {
   color: var(--color-f42);
   width: 323px;
   height: 40px;
-  top: 1016px;
-  left: 559px;
   margin-bottom: 72px;
 }
 
@@ -487,7 +473,6 @@ address-link-tel {
 .team-h {
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
   letter-spacing: 0.02em;
   text-align: center;
   background: var(--background-f42);
@@ -495,9 +480,6 @@ address-link-tel {
   text-transform: capitalize;
   color: var(--color-f42);
   width: 162px;
-  height: 40px;
-  top: 1668px;
-  left: 639px;
   margin-bottom: 72px;
 }
 .team-picture {
@@ -510,21 +492,13 @@ address-link-tel {
 .name-item {
   background-color: var(--background-color-fff);
   box-sizing: border-box;
-  padding: 20px;
   border: 3px solid red;
-  width: 400px;
-  height: 500px;
   display: flex;
   width: 64px;
   height: 380px;
   top: 1780px;
   padding: 0px 0px 32px 0px;
-  border-radius: 0px 0px 4px 4px;
   gap: 24px;
-  box-shadow: 0px 2px 1px 0px #2e2f4214;
-  box-shadow: 0px 1px 1px 0px #2e2f4229;
-  box-shadow: 0px 1px 6px 0px #2e2f4214;
-  border-radius: 0px 0px 4px 4px;
 }
 .name-container {
   padding: 32px 0;
@@ -544,7 +518,6 @@ address-link-tel {
 .name-h {
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
   letter-spacing: 0.02em;
   text-align: center;
   background: var(--background-f42);
@@ -606,16 +579,17 @@ address-link-tel {
   column-gap: 24px;
   width: calc((100% - 48px) / 3);
   gap: 24px;
+  flex-wrap: wrap;
 }
 .diffrent-item {
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
   gap: 24px;
+  width: calc((100% - 48px) / 3);
 }
 .image-link {
   text-decoration: none;
-  width: calc((100% - 48px) / 3);
   display: block;
 }
 .image-link-container {
