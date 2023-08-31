@@ -483,6 +483,7 @@ address-link-tel {
 }
 .team-picture {
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-container {
@@ -525,6 +526,7 @@ address-link-tel {
   width: 134px;
   height: 24px;
   margin-bottom: 8px;
+  padding: 32px 0;
 }
 .proffesion-p {
   font-size: var(--fs);
@@ -551,7 +553,7 @@ address-link-tel {
 
 /* portfolio html*/
 
-.s-link {
+.s-link-section {
   width: 586px;
   height: 48px;
   left: 427px;
