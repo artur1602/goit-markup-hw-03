@@ -239,7 +239,6 @@ header {
 
 .link-container {
   margin: 0 auto;
-  padding: 24px 0;
 }
 .header-nav-list {
   width: 261px;
@@ -372,6 +371,7 @@ address-link-tel {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  padding: 120px 0;
 }
 .descriptions-items {
   width: 264px;
