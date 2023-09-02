@@ -205,8 +205,6 @@ header {
   text-transform: uppercase;
   color: var(--color-ae5);
   height: 21px;
-  top: 24px;
-  left: 156px;
   margin-right: 76px;
 }
 .header-logo:hover,
@@ -217,8 +215,6 @@ header {
 }
 .logo-n-icon {
   color: var(--color-f42);
-  width: 71px;
-  height: 21px;
   margin: 0 auto;
 }
 .header-nav {
@@ -235,6 +231,7 @@ header {
   column-gap: 10px;
   align-items: center;
   margin: 0 auto;
+  display: flex;
 }
 
 .link-container {
@@ -243,8 +240,6 @@ header {
 .header-nav-list {
   width: 261px;
   height: 24px;
-  top: 24px;
-  left: 347px;
   gap: 40px;
   display: flex;
   margin: 0 auto;
@@ -263,7 +258,6 @@ header {
   color: var(--color-f42);
   border-radius: 10px;
   border: 3px solid var(--color-f42);
-  gap: 40px;
   padding: 24px 0;
   margin: 0 auto;
 }
@@ -277,13 +271,10 @@ address-link-tel {
   letter-spacing: 0.02em;
   list-style: none;
   color: var(--color-ico);
-  display: inline-block;
   height: 24px;
   margin: 0 auto;
-  top: 24px;
 }
 .address-link-mailto {
-  left: 940px;
 }
 .address-link-tel {
   height: 24px;
@@ -291,7 +282,6 @@ address-link-tel {
 }
 .adress {
   list-style: none;
-  gap: 40px;
 }
 .link {
   text-decoration: none;
