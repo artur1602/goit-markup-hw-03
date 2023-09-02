@@ -482,8 +482,8 @@ address-link-tel {
   padding: 32px 0;
 }
 
-.team-container {
-  padding: 32px 0;
+.profession-container {
+  width: calc((100% - 72px) / 4);
 }
 .name-item {
   background-color: var(--background-color-fff);
@@ -498,20 +498,8 @@ address-link-tel {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
-.name-container {
-  padding: 32px 0;
-}
-.name-list-product {
-  left: 156px;
-}
-.name-list-frontend {
-  left: 444px;
-}
-.name-list-marketing {
-  left: 732px;
-}
-.name-list-designer {
-  left: 1020px;
+.team-list {
+  width: calc((100% - 72px) / 4);
 }
 .name-h {
   font-size: 20px;
@@ -535,18 +523,6 @@ address-link-tel {
   color: var(--color);
   display: inline-block;
   height: 24px;
-}
-.proffesion-product {
-  width: 128px;
-}
-.proffesion-frontend {
-  width: 144px;
-}
-.proffesion-marketing {
-  width: 75px;
-}
-.proffesion-designer {
-  width: 85px;
 }
 
 /* portfolio html*/
