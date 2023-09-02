@@ -196,6 +196,7 @@ header {
 .header-container {
   margin: 0 auto;
   display: flex;
+  width: 1158px;
 }
 .header-logo {
   font-family: Raleway, sans-serif;
