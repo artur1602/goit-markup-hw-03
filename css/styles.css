@@ -20,7 +20,6 @@
 *:: after,
 *:: before {
   box-sizing: inherit;
-  margin: 0 auto;
 }
 
 .visually-hidden {
@@ -210,7 +209,6 @@ header {
   color: var(--color-ae5);
   height: 21px;
   margin-right: 76px;
-  margin: 0 auto;
 }
 .header-logo:hover,
 .header-logo:focus {
@@ -241,6 +239,7 @@ header {
 
 .link-container {
   margin: 0 auto;
+  padding: 24px 0;
 }
 .header-nav-list {
   width: 261px;
