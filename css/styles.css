@@ -479,6 +479,7 @@ address-link-tel {
 .team-picture {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  padding: 32px 0;
 }
 
 .team-container {
@@ -494,6 +495,8 @@ address-link-tel {
   top: 1780px;
   padding: 0px 0px 32px 0px;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .name-container {
   padding: 32px 0;
