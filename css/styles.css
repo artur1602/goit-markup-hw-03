@@ -197,6 +197,7 @@ header {
   margin: 0 auto;
   display: flex;
   width: 1158px;
+  padding: 0 15px;
 }
 .header-logo {
   font-family: Raleway, sans-serif;
@@ -284,6 +285,7 @@ address-link-tel {
 }
 .adress {
   list-style: none;
+  gap: 40px;
 }
 .link {
   text-decoration: none;
