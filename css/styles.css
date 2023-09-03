@@ -63,7 +63,6 @@
   cursor: pointer;
   width: 105px;
   height: 56px;
-  display: block;
   min-width: 169px;
   border: none;
   border-radius: 4px;
@@ -79,8 +78,6 @@
   cursor: pointer;
   width: 69px;
   height: 56px;
-  margin-top: 428px;
-  marging-left: 636px;
   padding: 16px 32px 16px 32px;
   border-radius: 4px;
   gap: 24px;
@@ -183,21 +180,21 @@ ul {
 }
 
 /* header ;*/
-.header-top {
+/*.header-top {
   height: 80px;
   background-colorvar: (--background-color-fff);
-}
+}*/
 
 header {
-  display: block;
-  width: 380px;
+  display: inline-bl;
+  width: px;
   border-bottom: 1px solid #e7e9fc;
   margin: 0 auto;
 }
 
 .header-container {
   margin: 0 auto;
-  display: flex;
+  display: inline-block;
   width: 1158px;
   padding: 0 15px;
 }
@@ -209,14 +206,14 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-ae5);
-  height: 21px;
-  margin-right: 76px;
+  height: ;
+  margin-right: ;
 }
 .header-logo:hover,
 .header-logo:focus {
   color: var(--color-bbf);
   display: inline-block;
-  width: 380px;
+  width: ;
 }
 .logo-n-icon {
   color: var(--color-f42);
@@ -228,25 +225,24 @@ header {
   font-size: var(--fs);
   line-height: var(--lh);
   text-decoration: none;
-  display: flex;
+  display: inline-block;
   border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
-  height: 72px;
+  width: ;
+  height: ;
   border: 1px;
   column-gap: 10px;
   align-items: center;
   margin: 0 auto;
-  display: flex;
 }
 
 .link-container {
   margin: 0 auto;
 }
 .header-socials-list {
-  width: 261px;
-  height: 24px;
+  width: ;
+  height: ;
   gap: 40px;
-  display: flex;
+  display: inline-block;
   margin: 0 auto;
 }
 .header-socials-item {
@@ -282,8 +278,8 @@ address-link-tel {
 .address-link-mailto {
 }
 .address-link-tel {
-  height: 24px;
-  top: 24px;
+  height: ;
+  top: ;
 }
 .adress {
   list-style: none;
@@ -292,7 +288,7 @@ address-link-tel {
 .link {
   text-decoration: none;
   display: inline-block;
-  width: 380px;
+  width: ;
 }
 .address-link {
   color: var(--color);
@@ -306,8 +302,8 @@ address-link-tel {
 .foot {
   background-color: var(--background-color-f42);
   width: 1440px;
-  height: 312px;
-  top: 2280px;
+  height: px;
+  top: ;
   padding: 100px 0;
   display: inline-block;
 }
@@ -328,8 +324,8 @@ address-link-tel {
   color: #f4f4fd;
   width: 115px;
   height: 24px;
-  top: 2380px;
-  left: 156px;
+  top: px;
+  left: px;
   display: inline-block;
 }
 .logo-f-p {
@@ -337,7 +333,7 @@ address-link-tel {
   letter-spacing: 0.02em;
   width: 264px;
   height: 72px;
-  top: 2420px;
+  top: ;
   left: 156px;
   max-width: 264px;
   display: inline-block;
@@ -348,7 +344,7 @@ address-link-tel {
 .hero-images {
   background-color: #2e2f42;
   width: 1440px;
-  height: 600px;
+  height: ;
   padding: 80px 0;
   text-align: center;
   display: block;
@@ -363,15 +359,15 @@ address-link-tel {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  width: 496px;
+  width: ;
   max-width: 496px;
 }
 .descriptions {
   font-weight: 500;
-  width: 1128px;
-  height: 104px;
-  top: 792px;
-  left: 156px;
+  width: ;
+  height: ;
+  top: ;
+  left: ;
   padding: 12px 0;
   display: flex;
   flex-direction: row;
@@ -379,24 +375,24 @@ address-link-tel {
   padding: 120px 0;
 }
 .descriptions-items {
-  width: 264px;
-  height: 104px;
-  top: 792px;
+  width: ;
+  height: ;
+  top: ;
   gap: 24px;
   display: flex;
   width: calc((100% - 72px) / 4);
 }
 .strategy {
-  left: 156px;
+  left: ;
 }
 .punctuality {
-  left: 444px;
+  left: ;
 }
 .diligence {
-  left: 732px;
+  left: ;
 }
 .technologies {
-  left: 1020px;
+  left: ;
 }
 .descriptions-h {
   font-size: 20px;
@@ -405,8 +401,8 @@ address-link-tel {
   font-weight: 500;
   color: var(--color-f42);
   display: inline-block;
-  width: 264px;
-  height: 24px;
+  width: ;
+  height: ;
   margin-bottom: 8px;
 }
 .descriptions-p {
@@ -414,16 +410,16 @@ address-link-tel {
   letter-spacing: 0.02em;
   padding: 40px 30px 20px 10px;
   border: 5px solid red;
-  width: 264px;
-  height: 72px;
+  width: ;
+  height: ;
 }
 
 .what {
   background-color: var(--background-color-4fd);
-  width: 1128px;
-  height: 412px;
-  top: 1016px;
-  left: 156px;
+  width: ;
+  height: ;
+  top: ;
+  left: ;
   padding: 120px 0;
   gap: 24px;
 }
@@ -435,18 +431,17 @@ address-link-tel {
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--color-f42);
-  width: 323px;
-  height: 40px;
+  width: ;
+  height: ;
   margin-bottom: 72px;
 }
 
 .what-item {
   color: #e7e9fc;
   background-color: var(--background-color-fff);
-  width: 360px;
-  height: 300px;
-  top: 1128px;
-  width: 360px;
+  width: ;
+  height: ;
+  top: ;
   border: 1px solid #e7e9fc;
   display: flex;
   gap: 24px;
@@ -463,11 +458,11 @@ address-link-tel {
 
 .team {
   background-color: var(--background-color-4fd);
-  width: 1440px;
-  height: 732px;
-  top: 1548px;
+  width: ;
+  height: ;
+  top: ;
   display: flex;
-  padding: 120px 0;
+  padding: 0;
 }
 .team-h {
   font-size: 36px;
@@ -478,7 +473,7 @@ address-link-tel {
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--color-f42);
-  width: 162px;
+  width: ;
   margin-bottom: 72px;
 }
 .team-picture {
@@ -494,9 +489,9 @@ address-link-tel {
   box-sizing: border-box;
   border: 3px solid red;
   display: flex;
-  width: 64px;
-  height: 380px;
-  top: 1780px;
+  width: ;
+  height: ;
+  top: ;
   padding: 0px 0px 32px 0px;
   gap: 24px;
   width: calc((100% - 72px) / 4);
@@ -513,8 +508,8 @@ address-link-tel {
   background: var(--background-f42);
   line-height: 1.11;
   color: var(--color-f42);
-  width: 134px;
-  height: 24px;
+  width: ;
+  height: ;
   margin-bottom: 8px;
   padding: 32px 0;
 }
@@ -532,9 +527,9 @@ address-link-tel {
 /* portfolio html*/
 
 .s-link-section {
-  width: 586px;
-  height: 48px;
-  left: 427px;
+  width: ;
+  height: ;
+  left: ;
   padding-top: 96px;
   padding-bottom: 120px;
   gap: 24px;
@@ -584,7 +579,7 @@ address-link-tel {
   letter-spacing: 0.02em;
   color: var(--color-f42);
   display: inline-block;
-  width: 380px;
+  width: ;
   margin-bottom: 8px;
 }
 .text-inform {
@@ -593,5 +588,5 @@ address-link-tel {
   letter-spacing: 0.02em;
   color: var(--color);
   display: inline-block;
-  width: 380px;
+  width: ;
 }
