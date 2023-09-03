@@ -194,9 +194,12 @@ header {
 
 .header-container {
   margin: 0 auto;
-  display: inline-block;
+  display: inline;
   width: 1158px;
   padding: 0 15px;
+}
+.logo-container {
+  display: inline;
 }
 .header-logo {
   font-family: Raleway, sans-serif;
@@ -237,6 +240,7 @@ header {
 
 .link-container {
   margin: 0 auto;
+  display: inline;
 }
 .header-socials-list {
   width: ;
