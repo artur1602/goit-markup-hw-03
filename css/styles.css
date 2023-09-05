@@ -214,7 +214,7 @@ header {
   text-transform: uppercase;
   color: var(--color-ae5);
   height: ;
-  margin-right: ;
+  margin-right: 76px;
 }
 .header-logo:hover,
 .header-logo:focus {
@@ -232,7 +232,7 @@ header {
   font-size: var(--fs);
   line-height: var(--lh);
   text-decoration: none;
-  display: inline;
+  display: flex;
   border-bottom: 1px solid #e7e9fc;
   width: ;
   height: ;
@@ -250,13 +250,13 @@ header {
   width: ;
   height: ;
   gap: 40px;
-  display: inline;
+  display: flex;
   margin: 0 auto;
+	padding: 24px 0;
 }
 .header-socials-item {
   display: inline;
   gap: 40px;
-  padding: 24px 0;
   margin: 0 auto;
 }
 .header-socials-link {
