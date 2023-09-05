@@ -39,7 +39,7 @@
 /* container display: flex; */
 
 .container {
-  width: 1158px;
+  width: 1150px;
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
@@ -159,7 +159,7 @@ ol {
   list-style: none;
   margin: 0 auto;
   display: flex;
-  width: 1158px;
+  width: 1150px;
   padding: 0 15px 0 15px;
   gap: 24px;
 }
@@ -199,7 +199,7 @@ header {
 .header-container {
   margin: 0 auto;
   display: inline;
-  width: 1158px;
+  width: 1150px;
   padding: 0 15px;
 }
 .logo-container {
