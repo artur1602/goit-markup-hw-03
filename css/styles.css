@@ -203,7 +203,7 @@ header {
   padding: 0 15px;
 }
 .logo-container {
-  display: inline;
+  display: flex;
 }
 .header-logo {
   font-family: Raleway, sans-serif;
