@@ -68,6 +68,10 @@
   border-radius: 4px;
   margin-left: 60px;
 }
+.order-container {
+  display: flex;
+  justify-content: center;
+}
 .order-service:hover,
 .order-service:focus {
   background-color: var(--background-color-bbf);
@@ -163,7 +167,7 @@ ol {
 /* адаптивне фото  display: block;*/
 
 img {
-  display: block;
+  display: ;
   max-width: 100%;
   height: auto;
 }
@@ -186,7 +190,7 @@ ul {
 }*/
 
 header {
-  display: inline-bl;
+  display: inline;
   width: px;
   border-bottom: 1px solid #e7e9fc;
   margin: 0 auto;
@@ -215,7 +219,7 @@ header {
 .header-logo:hover,
 .header-logo:focus {
   color: var(--color-bbf);
-  display: inline-block;
+  display: inline;
   width: ;
 }
 .logo-n-icon {
@@ -228,7 +232,7 @@ header {
   font-size: var(--fs);
   line-height: var(--lh);
   text-decoration: none;
-  display: inline-block;
+  display: inline;
   border-bottom: 1px solid #e7e9fc;
   width: ;
   height: ;
@@ -246,11 +250,11 @@ header {
   width: ;
   height: ;
   gap: 40px;
-  display: inline-block;
+  display: inline;
   margin: 0 auto;
 }
 .header-socials-item {
-  display: flex;
+  display: inline;
   gap: 40px;
   padding: 24px 0;
   margin: 0 auto;
@@ -262,7 +266,7 @@ header {
   line-height: var(--lh);
   color: var(--color-f42);
   border-radius: 10px;
-  border: 3px solid var(--color-f42);
+  border: 3px solid transparent;
   padding: 24px 0;
   margin: 0 auto;
 }
@@ -288,6 +292,10 @@ address-link-tel {
 .adress {
   list-style: none;
   gap: 40px;
+}
+.adress-conatainer {
+  display: inline;
+  margin: 0 auto;
 }
 .link {
   text-decoration: none;
@@ -373,30 +381,25 @@ address-link-tel {
   top: ;
   left: ;
   padding: 12px 0;
-  display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  padding: 120px 0;
+}
+.descriptions-h-container,
+descriptions-p-container {
+  display: inline;
+	justify-content: left;
+	padding: 0;
+
 }
 .descriptions-items {
-  width: ;
   height: ;
   top: ;
   gap: 24px;
   display: flex;
   width: calc((100% - 72px) / 4);
+	padding: 0;
+
 }
-.strategy {
-  left: ;
-}
-.punctuality {
-  left: ;
-}
-.diligence {
-  left: ;
-}
-.technologies {
-  left: ;
+
 }
 .descriptions-h {
   font-size: 20px;
@@ -404,16 +407,14 @@ address-link-tel {
   letter-spacing: 0.02em;
   font-weight: 500;
   color: var(--color-f42);
-  display: inline-block;
   width: ;
   height: ;
   margin-bottom: 8px;
+	padding: 0;
 }
 .descriptions-p {
-  box-sizing: border-box;
   letter-spacing: 0.02em;
-  padding: 40px 30px 20px 10px;
-  border: 5px solid red;
+  padding: 0;
   width: ;
   height: ;
 }
@@ -424,8 +425,11 @@ address-link-tel {
   height: ;
   top: ;
   left: ;
-  padding: 120px 0;
+  padding: 12px 0;
   gap: 24px;
+}
+.what-conatainer {
+  display: inline;
 }
 .what-h {
   font-size: 36px;
@@ -465,15 +469,17 @@ address-link-tel {
   width: ;
   height: ;
   top: ;
-  display: flex;
   padding: 0;
+}
+.team-container {
+  display: inline;
 }
 .team-h {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 0.02em;
   text-align: center;
-  background: var(--background-f42);
+  background: var(--background-color-4fd);
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--color-f42);
@@ -509,7 +515,7 @@ address-link-tel {
   font-weight: 500;
   letter-spacing: 0.02em;
   text-align: center;
-  background: var(--background-f42);
+  background: var(--background-color-4fd);
   line-height: 1.11;
   color: var(--color-f42);
   width: ;
