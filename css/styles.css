@@ -173,20 +173,21 @@ ul {
 /* header */
 .header {
   border-bottom: 1px solid #e7e9fc;
+	width: 1158px;
 }
 .header-container {
   display: flex;
   height: 72px;
   align-items: center;
-  width: 1158px;
-  justify-content: center;
-  margin-left: 156px;
+  justify-content: space-around;
   margin: 0 auto;
+	margin-left: 0;
+	margin-right: 0;
+
 }
 .header-nav {
   display: flex;
   align-items: center;
-  margin-right: auto;
 }
 .header-logo {
   font-family: Raleway, sans-serif;
