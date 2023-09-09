@@ -173,7 +173,7 @@ ul {
 /* header */
 .header {
   border-bottom: 1px solid #e7e9fc;
-	width: 1158px;
+	margin: 0 auto;
 }
 .header-container {
   display: flex;
@@ -181,13 +181,14 @@ ul {
   align-items: center;
   justify-content: space-around;
   margin: 0 auto;
-	margin-left: 0;
-	margin-right: 0;
+	margin-left: 156px;
+	width: 1158px;
 
 }
 .header-nav {
   display: flex;
   align-items: center;
+	margin-right: 332px;
 }
 .header-logo {
   font-family: Raleway, sans-serif;
@@ -221,7 +222,6 @@ ul {
 .adress-list {
   display: flex;
   gap: 40px;
-  margin-right: 156px;
 }
 .address-link-mailto,
 address-link-tel {
