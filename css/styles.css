@@ -21,7 +21,7 @@ body {
   font-family: var(--fm);
   font-weight: var(--fw);
   font-size: var(--fs);
-  line-height: 24px;
+  line-height: 24px
   background-color: var(--background-color-fff);
   color: var(--color);
 }
