@@ -94,8 +94,8 @@ img {
   background-color: var(--background-color-bbf);
   width: 69px;
 }
-.btn:hover,
-.btn:focus {
+.btn-filter:hover,
+.btn-filter:focus {
   color: var(--color-fff);
   background-color: var(--background-color-bbf);
   border: 1px solid transparent;
@@ -179,7 +179,6 @@ ul {
   height: 72px;
   align-items: center;
   width: 1158px;
-  margin: 0 auto;
   justify-content: center;
   margin-left: 156px;
   margin: 0 auto;
