@@ -180,15 +180,12 @@ ul {
   align-items: center;
   justify-content: space-around;
   margin: 0 auto;
-	margin-left: 156px;
 	width: 1158px;
 
 }
 .header-nav {
   display: flex;
   align-items: center;
-	margin-right: 332px;
-	margin: 0 auto;
 }
 .header-logo {
   font-family: Raleway, sans-serif;
@@ -232,7 +229,6 @@ address-link-tel {
 .link {
   text-decoration: none;
   display: inline-block;
-  width: ;
 }
 
 /* footer */
