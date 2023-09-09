@@ -99,8 +99,8 @@ img {
   border-radius: 4px;
 	border: 1px solid #e7e9fc;
 }
-.btn-list btn-another btn-app btn-design btn-mareketing:hover,
-.btn-list btn-another btn-app btn-design btn-mareketing:focus {
+.btn:hover,
+.btn:focus {
   color: var(--color-fff);
   background-color: var(--background-color-bbf);
   border: 1px solid transparent;
@@ -471,6 +471,7 @@ address-link-tel {
   padding: 96px 427px 72px 427px;
   background-color: var(--background-color-fff);
   justify-content: center;
+	margin-bottom: 72px;
 }
 
 .s-list {
@@ -488,9 +489,10 @@ address-link-tel {
   width: calc((100% - 48px) / 3);
 }
 .business-container {
-	border: 1px solid #e7e9fc;
 	border-top: none;
 	margin-bottom: 8px;
+	padding: 32px 16px;
+	border: 1px solid #e7e9fc;
 }
 
 .image-link {
