@@ -90,14 +90,9 @@ img {
   background-color: var(--background-color-bbf);
 }
 
-.btn-all {
+.all {
   background-color: var(--background-color-bbf);
   width: 69px;
-  color: var(--color-fff);
-  text-align: center;
-  padding: 12px 24px;
-  border-radius: 4px;
-  border: 1px solid #e7e9fc;
 }
 .btn:hover,
 .btn:focus {
@@ -466,10 +461,10 @@ address-link-tel {
 
 .business-list-item {
   width: calc((100% - 48px) / 3);
+  border-top: none;
 }
 .business-container {
   border-top: none;
-  margin-bottom: 8px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
 }
@@ -483,6 +478,7 @@ address-link-tel {
   font-size: 20px;
   letter-spacing: 0.02em;
   color: var(--color-f42);
+  margin-bottom: 8px;
 }
 .text-inform {
   font-size: var(--fs);
