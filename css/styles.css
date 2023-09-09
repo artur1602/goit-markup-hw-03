@@ -41,7 +41,7 @@ p {
 /* адаптивне фото  display: block;*/
 
 img {
-  display: ;
+  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -103,8 +103,8 @@ img {
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 	border: 1px solid #e7e9fc;
 }
-.btn-list:hover,
-.btn-list:focus {
+.btn-list, btn-another, btn-app, btn-design, btn-mareketing:hover,
+.btn-list, btn-another, btn-app, btn-design, btn-mareketing:focus {
   color: var(--color-fff);
   background-color: var(--background-color-bbf);
   border: 1px solid transparent;
@@ -205,7 +205,7 @@ ul {
 
 /* header */
 .header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 5px solid #e7e9fc;
 }
 .header-container {
   display: flex;
@@ -476,8 +476,6 @@ address-link-tel {
   justify-content: center;
   margin-bottom: 72px;
 }
-.diffrent-item {
-}
 
 .s-list {
   display: flex;
@@ -486,13 +484,21 @@ address-link-tel {
   flex-shrink: 0;
   background-color: var(--background-color-fff);
   justify-content: center;
+	column-gap: 24px;
+	row-gap: 48px;
 }
 
 .business-list-item {
   display: flex;
-  width: calc((100% - 24px * 2) / 4);
+  width: calc((100% - 48px) / 3)
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   margin: 12px;
+}
+.business-container {
+	padding: 32px 16px;
+	border: 1px solid #e7e9fc;
+	border-top: none;
+	margin-bottom: 8px;
 }
 
 .image-link {
