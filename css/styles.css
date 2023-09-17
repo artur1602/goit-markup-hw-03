@@ -151,9 +151,10 @@ img {
 /* container display: flex; */
 
 .container {
-  width: 1440px;
+  width: 1158px;
   padding: 0 15px;
   display: flex;
+	margin: 0 auto;
 }
 
 /* button*/
@@ -178,7 +179,6 @@ ul {
   display: flex;
   height: 72px;
   align-items: center;
-  justify-content: space-around;
   margin: 0 auto;
 	width: 1158px;
 
@@ -215,6 +215,10 @@ ul {
 .logo-n-icon {
   color: var(--color-f42);
   margin: 0 auto;
+}
+.adress {
+	font-style: normal;
+	margin-left: auto;
 }
 .adress-list {
   display: flex;
@@ -254,7 +258,6 @@ address-link-tel {
   text-transform: uppercase;
   color: var(--color-ae5);
   text-decoration: none;
-  margin-left: 156px;
   margin-bottom: 16px;
 }
 
@@ -267,7 +270,6 @@ address-link-tel {
   font-size: var(--fs);
   font-weight: var(--fw);
   letter-spacing: 0.32px;
-  margin-left: 156px;
 }
 
 /* index html */
@@ -283,11 +285,10 @@ address-link-tel {
 .hero-container {
   color: var(--color-fff);
   display: block;
-  margin: 0 472px;
 }
 .hero-tiitle {
   max-width: 496px;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   font-size: 56px;
   font-family: Roboto;
   font-style: normal;
@@ -296,12 +297,16 @@ address-link-tel {
   letter-spacing: 1.12px;
   align-items: center;
   text-align: center;
+	margin-right: auto; 
+	margin-left: auto;
 }
 .order-service {
   margin-left: 164px;
   min-width: 169px;
   border: none;
   display: block;
+	margin-right: auto; 
+	margin-left: auto;
 }
 .descriptions {
   padding: 120px 0;
@@ -343,6 +348,7 @@ address-link-tel {
 /*what*/
 .what {
   padding: 120px 0;
+	paddint-top: 0;
 }
 .what-container {
   padding: 0 156px;
@@ -368,11 +374,10 @@ address-link-tel {
 /* team*/
 .team {
   padding: 120px 0;
+	background-color:  #F4F4FD;
 }
-.team-container {
-  padding: 0 156px;
-  display: inline-block;
-}
+
+
 .team-list {
   display: flex;
   gap: 24px;
@@ -438,7 +443,6 @@ address-link-tel {
 .filter-list {
   gap: 24px;
   display: flex;
-  padding: 96px 427px 72px 427px;
   background-color: var(--background-color-fff);
   justify-content: center;
   margin-bottom: 72px;
@@ -452,7 +456,6 @@ address-link-tel {
   justify-content: center;
   column-gap: 24px;
   row-gap: 48px;
-  margin-left: 156px;
 }
 
 .business-list-item {
@@ -463,13 +466,12 @@ address-link-tel {
   border-top: none;
   padding: 32px 16px;
   border-right: 1px solid #e7e9fc;
-	border-letter: 1px solid #e7e9fc;
+	border-left: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
 
 }
 
 .image-link {
-  border: 1px solid #e7e9fc;
 }
 .text-tansform {
   font-weight: 500;
